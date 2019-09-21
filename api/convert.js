@@ -12,6 +12,7 @@ module.exports = (req, res) => {
       switch(req.query.source){
           case 'triki':
             output = Triki(req.query.notes,req.query.destination);
+            break
       }
 
 
